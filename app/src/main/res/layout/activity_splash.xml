@@ -5,5 +5,4 @@
     android:layout_width="match_parent"
     android:layout_margin="32dp"
     android:layout_height="match_parent"
-    tools:context=".activity.SplashActivity"
-    tools:src="@mipmap/ic_launcher" />
+    tools:context=".activity.SplashActivity"/>
