@@ -12,28 +12,20 @@
             android:orientation="vertical"
             android:layout_margin="4dp">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="3"
-                android:scaleType="centerCrop"
-                android:src="@drawable/image_category_entertainment_raster"
-                android:id="@+id/imageView" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:textSize="24sp"
                 android:layout_gravity="center"
-                android:text="@string/random_text"
+                android:text="Lorem Ipsum"
                 android:layout_height="wrap_content"
                 android:id="@+id/category_title" />
 
-            <android.support.design.widget.FloatingActionButton
-                android:layout_width="wrap_content"
-                android:src="@drawable/ic_price"
-                android:layout_height="wrap_content"
-                app:fabSize="normal"
-                android:scaleType="centerCrop"
-                android:layout_gravity="end"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/abcd"/>
+
+
         </LinearLayout>
     </android.support.v7.widget.CardView>
